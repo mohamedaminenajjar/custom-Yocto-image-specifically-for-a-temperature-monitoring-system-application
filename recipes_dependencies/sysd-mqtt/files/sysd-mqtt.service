@@ -1,0 +1,8 @@
+[Unit]
+Description=mqtt application launch Service
+
+[Service]
+ExecStart=/bin/bash /usr/bin/sysd-mqtt.sh
+
+[Install]
+WantedBy=multi-user.target
